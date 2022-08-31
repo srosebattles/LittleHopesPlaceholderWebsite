@@ -10,16 +10,7 @@ h1, h2, h3 {
   font-family: 'Lato', sans-serif;
 }
 
-/*.myName {
-  font-family: 'Arapey', serif;
-}*/
-
-/* * {
-  border: 1px solid magenta;
-}*/
-
 .imgDiv {
-  /*padding: 1rem;*/
   background-color: black;
   background-image: url(DALLEspiderwebs.png);
   background-size: cover;
@@ -32,100 +23,15 @@ h1, h2, h3 {
   align-content: center;
 }
 
-.myPic {
-  border-radius: 15px;
-  width: 50%;
-  height: 50%;
-  margin: 1rem auto;
-
-}
-
-.bookPic {
-  position: relative;
-  opacity: .3;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  height: 600px;
-}
-
-.headshotTitle {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  z-index: 3;
-  text-align: center;
-  margin: 2rem auto;
-}
-
 .containingDiv {
   display: block;
   text-align: center;
 }
 
-.skillsDiv {
-  background-color: black;
-  color: whitesmoke;
-}
-
-.skillsList {
-  text-align: left;
-  position: absolute;
-  z-index: 3;
-  margin: 2rem;
-  margin-top: .1rem;
-}
-
-.skillsList h1 {
-  text-align: center;
-}
-
-.codePic {
-  position: relative;
-  opacity: .7;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  height: 450px;
-}
-
-.aboutText {
-  text-align: left;
-  margin: 2rem;
-}
-
-.projectsDiv {
-  text-align: left;
-  margin: 2rem;
-  margin-top: 0rem;
-}
-
-.eachProject {
-  width: 90%
-}
-
-.projectsHeader {
-  text-align: center;
-  margin-top: 2rem;
-}
-
-.projectsDiv h3 a {
-  color: black;
-  text-decoration: none;
-}
-
-.projectsDiv h3 a:hover {
-  color: slategray;
-  text-decoration: underline;
-  transition: .3s ease;
-}
-
 .socialDiv {
   font-size: 70px;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   padding-bottom: 2rem;
   padding-top: 1rem;
   background-color: black;
@@ -174,63 +80,9 @@ h1, h2, h3 {
   color: lightgray;
 }
 
-.projectPic {
-  max-width: 100%;
-  height: auto;
-  border-radius: 15px;
-  border: 1px solid slategray;
-}
-
-.projectPic:hover {
-  opacity: .7;
-  transition: .3s ease;
-}
-
-.seeCode a {
-  color: black;
-}
-
-.seeCode a:visited {
-  color: black;
-}
-
-@media (min-width: 420px) {
-
-}
-
 @media (min-width: 699px) {
-
   .imgDiv {
-    /*padding-top: 4rem;*/
     padding: 0;
-  }
-
-  .headshotTitle {
-    margin-top: 4rem;
-    margin-bottom: 3rem;
-  }
-
-  .bookPic {
-    position: relative;
-    opacity: .7;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    max-height: 600px;
-  }
-
-  .myPic {
-      border-radius: 15px;
-      width: 20%;
-      height: 20%;
-      margin: 1rem auto;
-      margin-top: 4rem;
-  }
-
-  .skillsList {
-    text-align: left;
-    font-size: 24px;
-    margin: 2rem 5rem;
   }
 
   .about {
@@ -240,35 +92,5 @@ h1, h2, h3 {
   .aboutText {
     text-align: left;
     margin: 3rem 5rem;
-  }
-
-  .codePic {
-    position: relative;
-    opacity: .7;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 500px;
-  }
-
-  .projectsDiv {
-    margin: 4rem 5rem;
-  }
-
-}
-
-@media (min-width: 885px) {
-  .eachProject {
-    width: 48%;
-    margin: .5rem;
-  }
-
-  .projectsRow {
-    display: flex;
-  }
-
-  .projectPic {
-    max-width: 99%;
-    height: auto;
   }
 }
