@@ -10,6 +10,11 @@ h1, h2, h3 {
   font-family: 'Lato', sans-serif;
 }
 
+img {
+  width: 15rem;
+  border-radius: 4px;
+}
+
 .imgDiv {
   background-color: black;
   background-image: url(DALLEspiderwebs.png);
@@ -81,6 +86,10 @@ h1, h2, h3 {
 }
 
 @media (min-width: 699px) {
+  img {
+    width: 25rem;
+  }
+
   .imgDiv {
     padding: 0;
   }
@@ -92,5 +101,11 @@ h1, h2, h3 {
   .aboutText {
     text-align: left;
     margin: 3rem 5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  img {
+    width: 40rem;
   }
 }
