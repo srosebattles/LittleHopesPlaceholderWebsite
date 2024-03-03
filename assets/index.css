@@ -15,19 +15,6 @@ img {
   border-radius: 4px;
 }
 
-.imgDiv {
-  background-color: black;
-  background-image: url(DALLEspiderwebs.png);
-  background-size: cover;
-  color: whitesmoke;
-  margin: 0 auto;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  align-content: center;
-}
-
 .containingDiv {
   display: block;
   text-align: center;
@@ -58,25 +45,6 @@ img {
   color: lightgray;
 }
 
-.emailDiv {
-  font-size: 30px;
-  display: flex;
-  justify-content: space-around;
-  padding-bottom: 1rem;
-  padding-top: .5rem;
-  background-color: black;
-  color: whitesmoke;
-}
-
-.emailDiv a {
-  color: whitesmoke;
-  text-decoration: none;
-}
-
-.emailDiv a:hover {
-  color: lightgray;
-}
-
 .socialIcons {
   font-size: 50px;
   color: whitesmoke;
@@ -90,6 +58,20 @@ img {
 
 .socialIcons a:hover {
   color: lightgray;
+}
+
+.aboutText {
+  text-align: left;
+}
+
+ul {
+  text-align: left;
+}
+
+.currentNeedsDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 @media (min-width: 699px) {
@@ -106,7 +88,6 @@ img {
   }
 
   .aboutText {
-    text-align: left;
     margin: 3rem 5rem;
   }
 }
@@ -114,5 +95,10 @@ img {
 @media (min-width: 1024px) {
   img {
     width: 40rem;
+  }
+
+  .currentNeedsDiv {
+    flex-direction: row;
+    justify-content: space-around;
   }
 }
